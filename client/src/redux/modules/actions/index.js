@@ -102,7 +102,7 @@ export const fetchSettings = value => async dispatch => {
 };
 
 export const submitSettings = value => async dispatch => {
-  const res = await axios.post("/api/submit-settings/" + value.userId, value);
+  const res = await axios.post("/api/settings/" + value.userId, value);
   console.log(res.data);
   dispatch({ type: CHANGE_SETTINGS, payload: res.data });
 };

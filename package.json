@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jakedykstra/Juggernaut.git"
+    "url": "git+https://github.com/jakedykstra/DayWon.git"
   },
   "author": "Jacob Dykstra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jakedykstra/Juggernaut/issues"
+    "url": "https://github.com/jakedykstra/DayWon/issues"
   },
-  "homepage": "https://github.com/jakedykstra/Juggernaut#readme",
+  "homepage": "https://github.com/jakedykstra/DayWon#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
